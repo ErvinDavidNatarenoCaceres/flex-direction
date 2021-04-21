@@ -1,0 +1,79 @@
+.titulo{
+    color: #707070;
+    font-size: 20px;
+    font-family: monospace;
+}
+.titulo2{
+    text-align: center;
+    color: #D94848;
+    font-family: 'Limelight', cursive;
+}
+.f{
+    border: 1px solid #000;
+    height: auto;
+    width: 1300px;
+    margin: auto;
+}
+.caja_numeros{
+    width: 1300px;
+   
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.caja_numeros div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color:#310F40;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+.estrella{
+ margin: 30px auto 30px auto;
+ display: flex;
+}
+.h{
+    border: 2px solid #000;
+    height: auto;
+    width: 1300px;
+    margin: auto;
+    flex-direction: row;
+    display: flex;
+}
+.main{
+    height: auto;
+    display: flex; 
+    flex-direction: column;
+    margin: auto;   
+    
+}
+.main div{
+  border: 1px solid #000;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px; 
+    background-color: #9AD2D9;
+    color: white;
+}
+.main2{
+    height: auto;
+    display: flex; 
+    flex-direction: column;
+    margin: auto;
+}
+.main2 div{
+    border: 1px solid #000;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+    background-color: #D9644A;
+    color: white;
+}
